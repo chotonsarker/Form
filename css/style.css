@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    background-image: url(../image/the-fog-4909513_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    position: relative;
+    /* box-shadow: -2px -7px 20px 0px #000000fa; */
+}
+.form_wrapper{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 12px 0;
+    }
+.form_wrapper h1{
+
+    color: #fff;
+
+    text-transform: capitalize;
+
+    font-size: 30px;
+
+    color: #f6f9f9;
+
+    font-weight: 400;
+
+    font-family: cursive;
+}
+
+.form_wrapper span{
+    display: block;
+    /* width: 100%; */
+    height: 2px;
+    background-color: #d4b072;
+    line-height: 100px;
+    margin-top: 5px;
+}
+.form_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    /* text-align: center; */
+    }
+
+.icon{
+    width: 30%;
+}
+.icon_list{
+    width: 24%;
+    height: 50%;
+    background: #438e8e66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    color: #f6f9f9;
+    box-shadow: -5px -2px 20px 0px #000000fa;
+    }
+.icon pre{
+    color: #e6b867;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.icon a{
+
+    text-decoration: none;
+
+    color: #f6f9f9;
+}
+.icon p{
+    
+    color: #f6f9f9;
+        
+    font-size: 16px;
+        
+    font-weight: 400;
+        
+    font-family: math;
+}
+.signup{
+
+}
+.signup_wrapper{
+    padding: 37px 0;
+}
+.signup_wrapper h2{
+
+    color: #fff;
+
+    text-transform: capitalize;
+
+    font-size: 25px;
+
+    color: #f6f9f9;
+
+    font-weight: 400;
+
+    font-family: cursive;
+
+    margin-bottom: 30px;
+}
+.contact_form{
+}
+.contact_form form input[type="text"], .contact_form form input[type=email]{
+
+    width: 100%;
+
+    background: transparent;
+
+    border: 2px solid #045959;
+
+    padding: 12px 10px;
+
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: -2px -7px 20px 0px #000000fa;
+    outline: none;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact_form form input[type="text"]::placeholder, .contact_form form input[type=email]::placeholder{
+    color: #f6f9f9;
+}
+.contact_form form textarea{
+    
+    width: 100%;
+        
+    background: transparent;
+        
+    border: 2px solid #045959;
+        
+    padding: 12px 10px;
+        
+    margin-bottom: 27px;
+        
+    box-shadow: -2px -7px 20px 0px #000000fa;
+        
+    border-radius: 10px;
+        
+    outline: none;
+        
+    color: antiquewhite;
+        
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact_form form textarea::placeholder{
+    color: #f6f9f9;
+}
+.contact_form form a{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #045959;
+    padding: 12px 90px;
+    /* margin-bottom: 20px; */
+    box-shadow: -2px -7px 20px 0px #000000fa;
+    border-radius: 10px;
+    outline: none;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: .4s;
+
+    /* margin-bottom: 10px; */
+}
+.contact_form form a:hover{
+    background-color: black;
+}
